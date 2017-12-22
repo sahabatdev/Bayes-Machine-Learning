@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sahabatdeveloper.bayes.MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20sdp"
+        android:textAlignment="center"
+        android:text="Perhitungan Algoritma Find S" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_350sdp"
+        android:layout_below="@+id/tv">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/btn_hasil_hipotesa"
+        android:layout_below="@id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CARI HIPOTESA"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_tambah"
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_60sdp"
+        app:fabSize="normal"/>
+
+</RelativeLayout>

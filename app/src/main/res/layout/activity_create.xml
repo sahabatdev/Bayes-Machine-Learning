@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sahabatdeveloper.bayes.CreateActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20sdp"
+        android:textAlignment="center"
+        android:text="Tambah Data Training" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sky"
+        android:textSize="@dimen/_16sdp"/>
+
+    <Spinner
+        android:id="@+id/spn_Sky"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Air Temp"
+        android:textSize="@dimen/_16sdp"/>
+
+    <Spinner
+        android:id="@+id/spn_air_temp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Humidity"
+        android:textSize="@dimen/_16sdp"/>
+
+    <Spinner
+        android:id="@+id/spn_humidity"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wind"
+        android:textSize="@dimen/_16sdp"/>
+
+    <Spinner
+        android:id="@+id/spn_wind"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Water"
+        android:textSize="@dimen/_16sdp"/>
+
+    <Spinner
+        android:id="@+id/spn_water"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forecast"
+        android:textSize="@dimen/_16sdp"/>
+
+    <Spinner
+        android:id="@+id/spn_forecast"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enjoy Sport ?"
+        android:textSize="@dimen/_16sdp"/>
+
+    <Spinner
+        android:id="@+id/spn_enjoy_sport"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"/>
+
+    <Button
+        android:id="@+id/btnTambahData"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:text="Tambah"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
